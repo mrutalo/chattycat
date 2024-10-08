@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.chat-main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-display {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.chat-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.chat-submit {
+  padding: 10px;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
